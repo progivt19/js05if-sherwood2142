@@ -15,47 +15,47 @@ let MonthName10 = 'Октябрь';
 let MonthName11 = 'Ноябрь';
 let MonthName12 = 'Декабрь';
 
-function MonthName(n) {
+function f(n) {
 	switch (n) {
 		case 1:
-			alert(MonthName1);
+			console.log(MonthName1);
 			break;
 		case 2:
-			alert(MonthName2);
+			console.log(MonthName2);
 			break;
 		case 3:
-			alert(MonthName3);
+			console.log(MonthName3);
 			break;
 		case 4:
-			alert(MonthName4);
+			console.log(MonthName4);
 			break;
 		case 5:
-			alert(MonthName5);
+			console.log(MonthName5);
 			break;
 		case 6:
-			alert(MonthName6);
+			console.log(MonthName6);
 			break;
 		case 7:
-			alert(MonthName7);
+			console.log(MonthName7);
 			break;
 		case 8:
-			alert(MonthName8);
+			console.log(MonthName8);
 			break;
 		case 9:
-			alert(MonthName9);
+			console.log(MonthName9);
 			break;
 		case 10:
-			alert(MonthName10);
+			console.log(MonthName10);
 			break;
 		case 11:
-			alert(MonthName11);
+			console.log(MonthName11);
 			break;
 		case 12:
-			alert(MonthName12);
+			console.log(MonthName12);
 			break;
 		default:
-			alert('');
+			console.log("");
 	}
 }
 
-module.exports = MonthName;
+module.exports = f;
